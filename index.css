@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+html {
+  font-size: 18px; /* Slightly larger base font size for optimal readability */
+  scroll-behavior: smooth;
+}
+
+html.font-scale-lg {
+  font-size: 19.5px;
+}
+
+html.font-scale-xl {
+  font-size: 21px;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+[lang="hy"], .font-hy, .font-armenian {
+  font-family: 'Noto Sans Armenian', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
